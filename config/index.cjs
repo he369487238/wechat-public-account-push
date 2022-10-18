@@ -22,7 +22,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o82II6swQLHW_xWNFWuvmRLKgJlM',
+      id: 'o82II6ii-avYFDpiJHRQ2QHEPNZM',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'AqjrjkKHUw20WPw_5-bN_9WTTp-2G97rAQf2y3wiy70',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -32,7 +32,7 @@ const USER_CONFIG = {
 
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '小黄同学', year: '2002', date: '08-18',
+          type: '生日', name: '宝宝', year: '2002', date: '08-18',
         },
         {
           type: '节日', name: '第一次亲亲纪念日', year: '2018', date: '02-17',
