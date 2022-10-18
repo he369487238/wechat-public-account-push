@@ -12,6 +12,12 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'f5dc0163165827034d9072dc04c4f912',
+TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: '',
+morningGreeting: true,
+  
+  
 
   PROVINCE: '广东',
   CITY: '湛江',
@@ -36,9 +42,7 @@ const USER_CONFIG = {
         {
           type: '节日', name: '第一次亲亲纪念日', year: '2018', date: '02-17',
         },        
-        {
-          type: '节日', name: '经期', date: '10-03',
-        },
+
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
@@ -52,13 +56,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'o82II6swQLHW_xWNFWuvmRLKgJlM',
+  CALLBACK_TEMPLATE_ID: '	hkqXHJXWb41klGJRtu7ULY5BvRd1XIrwiZv-snpQzuw',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o82II6swQLHW_xWNFWuvmRLKgJlM',
     }
   ],
 
