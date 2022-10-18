@@ -12,12 +12,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'f5dc0163165827034d9072dc04c4f912',
-TIAN_API: {
-    // 天行API KEY，如果使用天行API则需要填写此项
-    key: '',
-morningGreeting: true,
-}
-  
+
 
   PROVINCE: '广东',
   CITY: '湛江',
